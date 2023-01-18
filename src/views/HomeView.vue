@@ -202,7 +202,9 @@
               </v-tab-item>
             </v-tabs-items>
           </v-col>
-          <v-col cols="12" sm="4"> </v-col>
+          <v-col cols="12" sm="4">
+            <PaymentPart />
+          </v-col>
         </v-row>
       </v-card>
     </v-container>
@@ -212,6 +214,8 @@
 <script>
 import SideBar from "@/components/SideBar.vue";
 import NavBar from "@/components/NavBar.vue";
+import PaymentPart from "@/components/PaymentPart.vue";
+
 export default {
   name: "HomePage",
   data: () => ({
@@ -389,6 +393,7 @@ export default {
   components: {
     SideBar,
     NavBar,
+    PaymentPart,
   },
 };
 </script>
