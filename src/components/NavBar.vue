@@ -60,7 +60,7 @@ export default {
 .v-tabs {
   width: 30% !important;
 }
-v-btn:not(.v-btn--round).v-size--small {
+.v-btn:not(.v-btn--round).v-size--small {
   min-width: 10px !important;
   padding: 0 5px !important;
 }
